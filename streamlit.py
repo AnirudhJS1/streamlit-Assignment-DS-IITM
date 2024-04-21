@@ -20,9 +20,9 @@ c = st.number_input("Enter the third number")
 
 if a>=b and a>=c:
     st.write("Third number is the greatest")
-elif b>a and b>c:
+elif b>=a and b>=c:
     st.write("Second number is the greatest")
-else:
+elif c>=a and c>=b:
     st.write("First number is the greatest")
 
 
