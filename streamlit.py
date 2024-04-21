@@ -18,7 +18,7 @@ c = st.number_input("Enter the third number")
 # In[4]:
 
 
-if a<b and b<c:
+if a>=b and b>=c:
     st.write("Third number is the greatest")
 elif b>a and b>c:
     st.write("Second number is the greatest")
